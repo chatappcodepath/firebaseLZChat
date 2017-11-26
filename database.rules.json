@@ -1,0 +1,37 @@
+{
+  "rules": {
+    "messages": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "messagesForGroup": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "usersArr": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      ".indexOn": "name"
+    },
+    "users": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "groups": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "groupsForUser": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "pushTokens": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "notificationRequests": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+
+body {
+    font-family: Verdana,sans-serif;
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    color: white;
+}
+
+#appIcon {
+    width: 150px;
+    border-radius: 20px;
+}
+#title {
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+#mainContent {
+    margin: 0 auto;
+}
+
+#leftSide {
+    max-width: 375px;
+}
+
+@media screen and (max-width: 1024px)
+{
+    #leftSide {
+        display: none;
+    }
+    #mainContent {
+        zoom: 2.0;
+    }
+}
+
+#rightSide {
+   text-align:center;
+}
+
+#demo {
+    width: 100%;
+}
+
+.btn:hover {
+    opacity: .75;
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    width: 173px;
+    height: 51px;
+    margin-bottom: 40px;
+    -ms-background-size: 100%;
+    background-size: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
